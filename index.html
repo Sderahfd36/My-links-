@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الشخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 100vh;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .profile-name {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .social-links li {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+        .social-links img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="" alt="Profile Image" class="profile-image" id="profileImage">
+        <div class="profile-name" id="profileName"></div>
+        <ul class="social-links" id="socialLinks">
+            <!-- سيتم ملء الروابط بواسطة JavaScript -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
